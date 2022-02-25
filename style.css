@@ -1,0 +1,13 @@
+header ul {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(28, 33, 43, 255);
+}
+
+.home {
+  font-size: 30 px;
+  color: orange;
+}
+.nav {
+  color: white;
+}
