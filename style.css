@@ -1,7 +1,40 @@
-header ul {
+.box {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  max-width: 1300px;
+  max-height: 600px;
+  margin: auto;
+  background-color: #15171f;
+  border-radius: 42px;
+  border: #de8e14 solid 10px;
+}
+
+body {
+  position: center;
+  margin: 0;
+  margin-top: 100px;
+  padding: 150px;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    rgba(253, 178, 33, 255) 0%,
+    rgba(253, 178, 33, 255) 50%,
+    rgba(28, 32, 42, 255) 50%,
+    rgba(28, 32, 42, 255) 100%
+  );
+}
+
+.nav {
   display: flex;
-  justify-content: space-around;
+  list-style: none;
+  justify-content: space-evenly;
   background-color: rgba(28, 33, 43, 255);
+  border-top-left-radius: 42px;
+  border-top-right-radius: 42px;
+  padding: 17px;
 }
 
 .home {
