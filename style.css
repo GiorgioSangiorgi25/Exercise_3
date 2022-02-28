@@ -65,14 +65,16 @@ body {
 
 /* in central box */
 .intbox {
-  margin-top: 9vh;
+  margin-top: 6vh;
   margin-left: 100px;
 }
 .inbox1 {
   display: flex;
 }
 .inbox2 {
-  display: flex;
+  margin-top: 100px;
+  padding-right: 50px;
+  margin-left: 20px;
 }
 .joker {
   font-size: 70px;
@@ -96,5 +98,24 @@ body {
 
 /* button */
 .button {
-  display: flex justify-content;
+  display: flex;
+  justify-content: flex-start;
+}
+.buy {
+}
+
+.watch {
+}
+footer {
+  display: flex;
+  justify-content: center;
+}
+.box2 {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(23, 33, 43, 1);
+}
+img {
+  width: 100px;
+  height: 150px;
 }
