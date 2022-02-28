@@ -4,8 +4,8 @@
   right: 0;
   bottom: 0;
   left: 0;
-  max-width: 1300px;
-  max-height: 600px;
+  max-width: 1600px;
+  max-height: 750px;
   margin: auto;
   background-color: #15171f;
   border-radius: 42px;
@@ -31,16 +31,28 @@ body {
   display: flex;
   list-style: none;
   justify-content: space-evenly;
-  background-color: rgba(28, 33, 43, 255);
+  background: linear-gradient(
+    131deg,
+    rgba(28, 33, 43, 1) 80%,
+    rgba(0, 0, 0, 0) 100%
+  );
   border-top-left-radius: 42px;
   border-top-right-radius: 42px;
   padding: 17px;
+  padding-inline-start: 80px;
+  padding-right: 350px;
 }
 
 .home {
-  font-size: 30 px;
+  font-size: 12px;
   color: orange;
+  font-family: verdana;
 }
 .nav {
   color: white;
+}
+.home2 {
+  font-size: 12px;
+  color: white;
+  font-family: verdana;
 }
